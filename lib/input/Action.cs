@@ -1,4 +1,4 @@
-namespace CityBuilder;
+namespace CityBuilder.Input;
 
 public enum Action
 {

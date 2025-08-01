@@ -1,2 +1,2 @@
-﻿using var game = new CityBuilder.CityBuilder();
+﻿using var game = new CityBuilder.CityBuilderGame();
 game.Run();

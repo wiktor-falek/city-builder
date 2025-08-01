@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Microsoft.Xna.Framework.Input;
 
-namespace CityBuilder;
+namespace CityBuilder.Input;
 
 public class InputManager
 {
