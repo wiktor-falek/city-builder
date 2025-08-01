@@ -17,6 +17,8 @@ public class InputManager
             { Keys.S, Action.CAMERA_DOWN },
             { Keys.A, Action.CAMERA_LEFT },
             { Keys.D, Action.CAMERA_RIGHT },
+            { Keys.Z, Action.CAMERA_ZOOM_IN },
+            { Keys.X, Action.CAMERA_ZOOM_OUT },
         };
     }
 

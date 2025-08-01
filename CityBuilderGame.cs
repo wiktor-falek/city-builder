@@ -60,7 +60,7 @@ public class CityBuilderGame : Game
     {
         GraphicsDevice.Clear(Color.Black);
 
-        _scene.Draw(_spriteBatch);
+        _scene.Draw();
 
         base.Draw(gameTime);
     }

@@ -9,6 +9,6 @@ public interface IScene
     void Initialize();
     void LoadContent(GraphicsDevice graphicsDevice, ContentManager contentManager);
     void Update(GameTime gameTime);
-    void Draw(SpriteBatch spriteBatch);
+    void Draw();
     void Dispose();
 }

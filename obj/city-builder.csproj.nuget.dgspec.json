@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/apdo/code/city-builder/city-builder.csproj": {}
+    "c:\\Users\\Apdo\\code\\city-builder\\city-builder.csproj": {}
   },
   "projects": {
-    "/home/apdo/code/city-builder/city-builder.csproj": {
+    "c:\\Users\\Apdo\\code\\city-builder\\city-builder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/apdo/code/city-builder/city-builder.csproj",
+        "projectUniqueName": "c:\\Users\\Apdo\\code\\city-builder\\city-builder.csproj",
         "projectName": "city-builder",
-        "projectPath": "/home/apdo/code/city-builder/city-builder.csproj",
-        "packagesPath": "/home/apdo/.nuget/packages/",
-        "outputPath": "/home/apdo/code/city-builder/obj/",
+        "projectPath": "c:\\Users\\Apdo\\code\\city-builder\\city-builder.csproj",
+        "packagesPath": "C:\\Users\\Apdo\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Apdo\\code\\city-builder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/apdo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Apdo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -67,15 +67,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.18, 8.0.18]"
+              "version": "[8.0.17, 8.0.17]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[8.0.18, 8.0.18]"
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.17, 8.0.17]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.18, 8.0.18]"
+              "version": "[8.0.17, 8.0.17]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.17, 8.0.17]"
             }
           ],
           "frameworkReferences": {
@@ -83,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.108/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

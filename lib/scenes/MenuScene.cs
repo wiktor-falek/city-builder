@@ -21,11 +21,7 @@ public class MenuScene : IScene
         throw new System.NotImplementedException();
     }
 
-    public void Draw(SpriteBatch spriteBatch)
-    {
-        spriteBatch.Begin();
-        spriteBatch.End();
-    }
+    public void Draw() { }
 
     public void Dispose()
     {

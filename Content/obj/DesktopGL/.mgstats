@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"c:/Users/Apdo/code/city-builder/Content/Models/ground_grass.fbx","c:/Users/Apdo/code/city-builder/Content/bin/DesktopGL/ground_grass.xnb","ModelProcessor","ModelContent",11071,814,0.1088101
+"c:/Users/Apdo/code/city-builder/Content/Models/tree_small.fbx","c:/Users/Apdo/code/city-builder/Content/bin/DesktopGL/tree_small.xnb","ModelProcessor","ModelContent",21554,4949,0.0051791
