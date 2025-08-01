@@ -238,19 +238,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Apdo\\.nuget\\packages\\": {}
+    "/home/apdo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Apdo\\code\\city-builder\\city-builder.csproj",
+      "projectUniqueName": "/home/apdo/code/city-builder/city-builder.csproj",
       "projectName": "city-builder",
-      "projectPath": "C:\\Users\\Apdo\\code\\city-builder\\city-builder.csproj",
-      "packagesPath": "C:\\Users\\Apdo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Apdo\\code\\city-builder\\obj\\",
+      "projectPath": "/home/apdo/code/city-builder/city-builder.csproj",
+      "packagesPath": "/home/apdo/.nuget/packages/",
+      "outputPath": "/home/apdo/code/city-builder/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Apdo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/apdo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -274,7 +274,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -303,19 +303,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.17, 8.0.17]"
+            "version": "[8.0.18, 8.0.18]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.17, 8.0.17]"
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[8.0.18, 8.0.18]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.17, 8.0.17]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.17, 8.0.17]"
+            "version": "[8.0.18, 8.0.18]"
           }
         ],
         "frameworkReferences": {
@@ -323,7 +319,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.108/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

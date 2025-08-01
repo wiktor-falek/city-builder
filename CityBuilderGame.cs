@@ -23,11 +23,11 @@ public class CityBuilderGame : Game
 
     public void SetScene(IScene newScene)
     {
-        _scene?.Dispose();
+        Content.Unload();
         _scene = newScene;
 
         if (_hasLoadedContent)
-            _scene.LoadContent(GraphicsDevice, Content);
+            _scene.LoadContent(Content);
 
         _scene.Initialize();
     }
@@ -45,7 +45,7 @@ public class CityBuilderGame : Game
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
         _hasLoadedContent = true;
-        _scene?.LoadContent(GraphicsDevice, Content);
+        _scene?.LoadContent(Content);
     }
 
     protected override void Update(GameTime gameTime)
