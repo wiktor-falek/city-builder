@@ -1,6 +1,5 @@
 ﻿using CityBuilder.Input;
 using CityBuilder.Scene;
-using CityBuilder.World;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -35,8 +34,7 @@ public class CityBuilderGame : Game, ISceneManager
     protected override void Initialize()
     {
         _inputManager.Initialize();
-        IScene scene = new MenuScene(this);
-        SetScene(scene);
+        SetScene(new MenuScene(this));
 
         base.Initialize();
     }

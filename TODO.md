@@ -1,0 +1,9 @@
+- [ ] Fix font and draw menu
+- [ ] Test if menu to game scene transition works
+- [ ] Place a resource cart in the middle of the world
+- [ ] Place camera in the middle of the world
+- [ ] Render the cart
+- [ ] Render resource counts
+- [ ] Render build button
+- [ ] Build mode
+- [ ] Tile hover highlighting - ray picking
