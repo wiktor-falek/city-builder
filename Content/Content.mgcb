@@ -13,3 +13,15 @@
 
 #---------------------------------- Content ---------------------------------#
 
+#begin Fonts/monogram_extended.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/monogram_extended.spritefont
+
+#begin Fonts/monogram_extended.ttf
+/importer:
+/processor:
+/build:Fonts/monogram_extended.ttf
+

@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace CityBuilder;
 
-public class CityBuilderGame : Game
+public class CityBuilderGame : Game, ISceneManager
 {
     private InputManager _inputManager = new();
     private GraphicsDeviceManager _graphics;
@@ -35,7 +35,7 @@ public class CityBuilderGame : Game
     protected override void Initialize()
     {
         _inputManager.Initialize();
-        IScene scene = new GameScene(_inputManager, new GameWorld());
+        IScene scene = new MenuScene(this);
         SetScene(scene);
 
         base.Initialize();
@@ -60,7 +60,7 @@ public class CityBuilderGame : Game
     {
         GraphicsDevice.Clear(Color.Black);
 
-        _scene.Draw();
+        _scene.Draw(_spriteBatch);
 
         base.Draw(gameTime);
     }

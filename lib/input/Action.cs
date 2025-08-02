@@ -8,4 +8,5 @@ public enum Action
     CAMERA_RIGHT,
     CAMERA_ZOOM_IN,
     CAMERA_ZOOM_OUT,
+    SPACEBAR,
 }
