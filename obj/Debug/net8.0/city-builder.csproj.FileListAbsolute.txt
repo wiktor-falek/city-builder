@@ -54,4 +54,5 @@ c:/Users/Apdo/code/city-builder/obj/Debug/net8.0/ref/city-builder.dll
 c:/Users/Apdo/code/city-builder/bin/Debug/net8.0/Content/ground_grass.xnb
 c:/Users/Apdo/code/city-builder/bin/Debug/net8.0/Content/tree_small.xnb
 /home/apdo/code/city-builder/bin/Debug/net8.0/Content/cart.xnb
-/home/apdo/code/city-builder/bin/Debug/net8.0/Content/DefaultFont.xnb
+/home/apdo/code/city-builder/bin/Debug/net8.0/Content/kenney_nature-kit/Models/OBJ format/ground_grass.xnb
+/home/apdo/code/city-builder/bin/Debug/net8.0/Content/kenney_nature-kit/Models/OBJ format/tree_small.xnb

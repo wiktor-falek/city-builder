@@ -4,9 +4,11 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>/home/apdo/code/city-builder/Content/Fonts/monogram_extended.spritefont</File>
+    <File>/home/apdo/code/city-builder/Content/kenney_nature-kit/Models/OBJ format/ground_grass.obj</File>
+    <File>/home/apdo/code/city-builder/Content/kenney_nature-kit/Models/OBJ format/tree_small.obj</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

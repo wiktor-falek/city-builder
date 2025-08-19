@@ -34,7 +34,7 @@ public class CityBuilderGame : Game, ISceneManager
     protected override void Initialize()
     {
         _inputManager.Initialize();
-        SetScene(new MenuScene(this));
+        SetScene(new GameScene(this, _inputManager, new World.GameWorld()));
 
         base.Initialize();
     }
